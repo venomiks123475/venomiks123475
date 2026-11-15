@@ -1,8 +1,142 @@
+:root{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
 body{
-    background-color: aqua;
-    color:blueviolet
+    background-color: rgb(39, 82, 39)!important;
+    color:rgb(255, 255, 255)
 }
 
 a{
+    text-decoration-line:none;
     color:crimson
+    
+}
+header{
+border: 4px solid beige;
+}
+#paragraf_większy{
+    font-size: 16px;
+}
+
+article p{
+font-size: 16px;
+    color:rgb(255, 255, 255);
+    
+}
+#paragraf_większy ~ span{
+    background-color: aqua;
+}
+h2{
+    color:ghostwhite
+}
+h3{
+    color:grey
+}
+main{
+    border:2px solid beige;
+}
+.paragraf_większy{
+    color:darkgrey
+}
+#lewy{
+    text-align: left;
+    text-transform:uppercase
+}
+#prawy{
+    text-align: right;
+    text-transform:lowercase;
+}
+#center{
+    text-align: center;
+}
+#justify{
+    text-align: justify;
+}
+#Marki{
+    border:2px solid beige
+}
+#Jazda{
+    border:2px solid beige
+}
+#Mechanika{
+    border:2px solid beige
+}
+#Przygody{
+    border:2px solid beige
+}
+footer{
+    text-shadow:1px 1px 1px grey ;
+    color:crimson
+}
+body h1{
+    text-shadow: 1px 1px 2px cyan;
+}
+aside h3{
+    color:beige;
+}
+aside {
+    background-color: darkgreen;
+    border: 3px solid beige
+}
+.kwadrat{
+    list-style-type: square;
+}
+.pusty{
+    list-style-type: circle;
+}
+nav ul{
+    list-style-type: none;
+}
+.Litery{
+    list-style-type: lower-alpha;
+}
+.Literyduze{
+    list-style-type: upper-alpha;
+}
+.Obrazek{
+    list-style-image: url('punktator.jpg');
+}
+a{
+    text-decoration: none
+}
+ul{
+    list-style-type: circle;
+}
+ol{
+    list-style-type: square;
+}
+nav ul{
+    list-style-type: none;
+
+}
+.disc   { 
+    list-style-type: disc; 
+}
+
+.decimal      { 
+    list-style-type: decimal; 
+}
+.decimal-zero { 
+    list-style-type: decimal-leading-zero; 
+}
+.lower-alpha  { 
+    list-style-type: lower-alpha; 
+}
+.upper-alpha  { 
+    list-style-type: upper-alpha; 
+}
+.lower-roman  { 
+    list-style-type: lower-roman; 
+}
+.upper-roman  { 
+    list-style-type: upper-roman; 
+}
+ 
+.litery{
+    list-style-type: lower-latin;
+}
+.obrazek{
+    list-style-image: url('img/pięciokąt.jpg');
 }
